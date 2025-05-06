@@ -1,0 +1,11 @@
+a = str(input())
+for i in range(len(a)):
+	if a[i] == a [len(a)-i-1]:
+		flag = 1
+	else:
+		flag = 0
+		break
+if flag == 1:
+			print("palindrome\n")
+else:
+	print("not a palindrome\n")
